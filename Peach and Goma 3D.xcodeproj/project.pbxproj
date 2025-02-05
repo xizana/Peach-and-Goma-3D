@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		A2CCDCBA2D5351010039B88D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CCDCB92D5351010039B88D /* AppDelegate.swift */; };
 		A2CCDCBC2D5351010039B88D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CCDCBB2D5351010039B88D /* SceneDelegate.swift */; };
-		A2CCDCBE2D5351010039B88D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CCDCBD2D5351010039B88D /* ViewController.swift */; };
-		A2CCDCC12D5351010039B88D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2CCDCBF2D5351010039B88D /* Main.storyboard */; };
+		A2CCDCBE2D5351010039B88D /* PeachandgomaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CCDCBD2D5351010039B88D /* PeachandgomaViewController.swift */; };
 		A2CCDCC32D5351030039B88D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2CCDCC22D5351030039B88D /* Assets.xcassets */; };
 		A2CCDCC62D5351030039B88D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2CCDCC42D5351030039B88D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -19,8 +18,7 @@
 		A2CCDCB62D5351010039B88D /* Peach and Goma 3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Peach and Goma 3D.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2CCDCB92D5351010039B88D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2CCDCBB2D5351010039B88D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A2CCDCBD2D5351010039B88D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A2CCDCC02D5351010039B88D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2CCDCBD2D5351010039B88D /* PeachandgomaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeachandgomaViewController.swift; sourceTree = "<group>"; };
 		A2CCDCC22D5351030039B88D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2CCDCC52D5351030039B88D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2CCDCC72D5351030039B88D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,8 +56,7 @@
 			children = (
 				A2CCDCB92D5351010039B88D /* AppDelegate.swift */,
 				A2CCDCBB2D5351010039B88D /* SceneDelegate.swift */,
-				A2CCDCBD2D5351010039B88D /* ViewController.swift */,
-				A2CCDCBF2D5351010039B88D /* Main.storyboard */,
+				A2CCDCBD2D5351010039B88D /* PeachandgomaViewController.swift */,
 				A2CCDCC22D5351030039B88D /* Assets.xcassets */,
 				A2CCDCC42D5351030039B88D /* LaunchScreen.storyboard */,
 				A2CCDCC72D5351030039B88D /* Info.plist */,
@@ -127,7 +124,6 @@
 			files = (
 				A2CCDCC62D5351030039B88D /* LaunchScreen.storyboard in Resources */,
 				A2CCDCC32D5351030039B88D /* Assets.xcassets in Resources */,
-				A2CCDCC12D5351010039B88D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2CCDCBE2D5351010039B88D /* ViewController.swift in Sources */,
+				A2CCDCBE2D5351010039B88D /* PeachandgomaViewController.swift in Sources */,
 				A2CCDCBA2D5351010039B88D /* AppDelegate.swift in Sources */,
 				A2CCDCBC2D5351010039B88D /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A2CCDCBF2D5351010039B88D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A2CCDCC02D5351010039B88D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A2CCDCC42D5351030039B88D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +285,6 @@
 				INFOPLIST_FILE = "Peach and Goma 3D/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -329,7 +316,6 @@
 				INFOPLIST_FILE = "Peach and Goma 3D/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
