@@ -11,7 +11,6 @@
 		A2CCDCBC2D5351010039B88D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CCDCBB2D5351010039B88D /* SceneDelegate.swift */; };
 		A2CCDCBE2D5351010039B88D /* PeachandgomaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CCDCBD2D5351010039B88D /* PeachandgomaViewController.swift */; };
 		A2CCDCC32D5351030039B88D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2CCDCC22D5351030039B88D /* Assets.xcassets */; };
-		A2CCDCC62D5351030039B88D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2CCDCC42D5351030039B88D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +19,6 @@
 		A2CCDCBB2D5351010039B88D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A2CCDCBD2D5351010039B88D /* PeachandgomaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeachandgomaViewController.swift; sourceTree = "<group>"; };
 		A2CCDCC22D5351030039B88D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A2CCDCC52D5351030039B88D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2CCDCC72D5351030039B88D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,7 +55,6 @@
 				A2CCDCCE2D53618F0039B88D /* Modules */,
 				A2CCDCCD2D53612C0039B88D /* App */,
 				A2CCDCC22D5351030039B88D /* Assets.xcassets */,
-				A2CCDCC42D5351030039B88D /* LaunchScreen.storyboard */,
 				A2CCDCC72D5351030039B88D /* Info.plist */,
 			);
 			path = "Peach and Goma 3D";
@@ -146,7 +143,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2CCDCC62D5351030039B88D /* LaunchScreen.storyboard in Resources */,
 				A2CCDCC32D5351030039B88D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,17 +161,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A2CCDCC42D5351030039B88D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A2CCDCC52D5351030039B88D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A2CCDCC82D5351030039B88D /* Debug */ = {
