@@ -54,8 +54,8 @@
 		A2CCDCB82D5351010039B88D /* Peach and Goma 3D */ = {
 			isa = PBXGroup;
 			children = (
+				A2CCDCCE2D53618F0039B88D /* Modules */,
 				A2CCDCCD2D53612C0039B88D /* App */,
-				A2CCDCBD2D5351010039B88D /* PeachandgomaViewController.swift */,
 				A2CCDCC22D5351030039B88D /* Assets.xcassets */,
 				A2CCDCC42D5351030039B88D /* LaunchScreen.storyboard */,
 				A2CCDCC72D5351030039B88D /* Info.plist */,
@@ -70,6 +70,22 @@
 				A2CCDCB92D5351010039B88D /* AppDelegate.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		A2CCDCCE2D53618F0039B88D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A2CCDCCF2D5361F20039B88D /* Peachandgomamodule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A2CCDCCF2D5361F20039B88D /* Peachandgomamodule */ = {
+			isa = PBXGroup;
+			children = (
+				A2CCDCBD2D5351010039B88D /* PeachandgomaViewController.swift */,
+			);
+			path = Peachandgomamodule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
