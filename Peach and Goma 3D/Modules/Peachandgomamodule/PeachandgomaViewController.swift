@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SplineRuntime
 
 class PeachandgomaViewController: UIViewController {
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A20AA0AD2D53F1B100553849 /* SplineRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = A20AA0AC2D53F1B100553849 /* SplineRuntime */; };
 		A2CCDCBA2D5351010039B88D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CCDCB92D5351010039B88D /* AppDelegate.swift */; };
 		A2CCDCBC2D5351010039B88D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CCDCBB2D5351010039B88D /* SceneDelegate.swift */; };
 		A2CCDCBE2D5351010039B88D /* PeachandgomaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CCDCBD2D5351010039B88D /* PeachandgomaViewController.swift */; };
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A20AA0AD2D53F1B100553849 /* SplineRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +103,9 @@
 			dependencies = (
 			);
 			name = "Peach and Goma 3D";
+			packageProductDependencies = (
+				A20AA0AC2D53F1B100553849 /* SplineRuntime */,
+			);
 			productName = "Peach and Goma 3D";
 			productReference = A2CCDCB62D5351010039B88D /* Peach and Goma 3D.app */;
 			productType = "com.apple.product-type.application";
@@ -130,7 +135,7 @@
 			);
 			mainGroup = A2CCDCAD2D5351010039B88D;
 			packageReferences = (
-				A2D8102E2D53D04300D4143E /* XCRemoteSwiftPackageReference "spline-ios" */,
+				A20AA0AB2D53F1B000553849 /* XCRemoteSwiftPackageReference "spline-ios" */,
 			);
 			productRefGroup = A2CCDCB72D5351010039B88D /* Products */;
 			projectDirPath = "";
@@ -371,15 +376,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		A2D8102E2D53D04300D4143E /* XCRemoteSwiftPackageReference "spline-ios" */ = {
+		A20AA0AB2D53F1B000553849 /* XCRemoteSwiftPackageReference "spline-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/splinetool/spline-ios";
+			repositoryURL = "https://github.com/splinetool/spline-ios.git";
 			requirement = {
 				branch = main;
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A20AA0AC2D53F1B100553849 /* SplineRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A20AA0AB2D53F1B000553849 /* XCRemoteSwiftPackageReference "spline-ios" */;
+			productName = SplineRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A2CCDCAE2D5351010039B88D /* Project object */;
 }
