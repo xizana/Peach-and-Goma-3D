@@ -129,6 +129,9 @@
 				Base,
 			);
 			mainGroup = A2CCDCAD2D5351010039B88D;
+			packageReferences = (
+				A2D8102E2D53D04300D4143E /* XCRemoteSwiftPackageReference "spline-ios" */,
+			);
 			productRefGroup = A2CCDCB72D5351010039B88D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -366,6 +369,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A2D8102E2D53D04300D4143E /* XCRemoteSwiftPackageReference "spline-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/splinetool/spline-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = A2CCDCAE2D5351010039B88D /* Project object */;
 }
