@@ -10,6 +10,13 @@ import UIKit
 
 class PeachandgomaView: UIView {
     
+    // MARK: - Properties
+    
+    
+    
+    // MARK: - Stacks and Views
+    
+    
     
     // MARK: - init
     
