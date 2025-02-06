@@ -8,7 +8,7 @@
 import UIKit
 import SplineRuntime
 
-class PeachandgomaViewController: UIViewController {
+class PeachandgomaViewController: ReusableViewController<PeachandgomaView> {
 
     override func viewDidLoad() {
         super.viewDidLoad()
