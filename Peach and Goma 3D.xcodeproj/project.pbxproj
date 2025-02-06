@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A20AA0AD2D53F1B100553849 /* SplineRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = A20AA0AC2D53F1B100553849 /* SplineRuntime */; };
+		A29FC6942D5490D900A3626B /* ReusableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29FC6932D5490D900A3626B /* ReusableViewController.swift */; };
+		A29FC6962D54912400A3626B /* PeachandgomaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29FC6952D54912400A3626B /* PeachandgomaView.swift */; };
 		A2CCDCBA2D5351010039B88D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CCDCB92D5351010039B88D /* AppDelegate.swift */; };
 		A2CCDCBC2D5351010039B88D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CCDCBB2D5351010039B88D /* SceneDelegate.swift */; };
 		A2CCDCBE2D5351010039B88D /* PeachandgomaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CCDCBD2D5351010039B88D /* PeachandgomaViewController.swift */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A29FC6932D5490D900A3626B /* ReusableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewController.swift; sourceTree = "<group>"; };
+		A29FC6952D54912400A3626B /* PeachandgomaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeachandgomaView.swift; sourceTree = "<group>"; };
 		A2CCDCB62D5351010039B88D /* Peach and Goma 3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Peach and Goma 3D.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2CCDCB92D5351010039B88D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2CCDCBB2D5351010039B88D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A29FC6922D54909B00A3626B /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				A29FC6932D5490D900A3626B /* ReusableViewController.swift */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
 		A2CCDCAD2D5351010039B88D = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +66,7 @@
 		A2CCDCB82D5351010039B88D /* Peach and Goma 3D */ = {
 			isa = PBXGroup;
 			children = (
+				A29FC6922D54909B00A3626B /* ReusableViews */,
 				A2CCDCCE2D53618F0039B88D /* Modules */,
 				A2CCDCCD2D53612C0039B88D /* App */,
 				A2CCDCC22D5351030039B88D /* Assets.xcassets */,
@@ -83,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				A2CCDCBD2D5351010039B88D /* PeachandgomaViewController.swift */,
+				A29FC6952D54912400A3626B /* PeachandgomaView.swift */,
 			);
 			path = Peachandgomamodule;
 			sourceTree = "<group>";
@@ -163,8 +177,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2CCDCBE2D5351010039B88D /* PeachandgomaViewController.swift in Sources */,
+				A29FC6942D5490D900A3626B /* ReusableViewController.swift in Sources */,
 				A2CCDCBA2D5351010039B88D /* AppDelegate.swift in Sources */,
 				A2CCDCBC2D5351010039B88D /* SceneDelegate.swift in Sources */,
+				A29FC6962D54912400A3626B /* PeachandgomaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
